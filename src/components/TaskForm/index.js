@@ -56,6 +56,9 @@ const TaskForm = ({ onAdd, assignedUsers }) => {
                 <option value="user1">User 1</option>
                 <option value="user2">User 2</option>
                 <option value="user3">User 3</option>
+                <option value="user4">User 4</option>
+                <option value="user5">User 5</option>
+                <option value="user6">User 6</option>
             </select>
      
             <button className="add-btn" type="submit">Add Task</button>
