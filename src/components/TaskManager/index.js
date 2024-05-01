@@ -25,7 +25,7 @@ const TaskManager = () => {
     const [tasks, setTasks] = useState([
         { id: 1, title: 'Task 1', dueDate: '2024-05-05', status: '', assignedTo: 'user 1' },
         { id: 2, title: 'Task 2', dueDate: '2023-05-10', status: '', assignedTo: 'user 2' },
-        { id: 2, title: 'Task 3', dueDate: '2025-05-10', status: '', assignedTo: 'user 3' },
+        { id: 3, title: 'Task 3', dueDate: '2025-05-10', status: '', assignedTo: 'user 3' },
     ]);
 
     const statusCounts = tasks.reduce((counts, task) => {
