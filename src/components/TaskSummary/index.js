@@ -22,7 +22,7 @@ const TaskSummary = ({ Piedata }) => {
             <ResponsiveContainer width="100%" height={200}>
                 <PieChart width="100%">
                     <Pie
-                        cx="70%"
+                        cx="40%"
                         cy="50%"
                         data={Piedata}
                         startAngle={0}
@@ -40,7 +40,7 @@ const TaskSummary = ({ Piedata }) => {
                         iconType="circle"
                         layout="vertical"
                         verticalAlign="middle"
-                        align="right"
+                        align="center"
                     />
                 </PieChart>
             </ResponsiveContainer>
