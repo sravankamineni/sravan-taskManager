@@ -30,7 +30,7 @@ const TaskSummary = ({ Piedata }) => {
                         dataKey="count"
                         labelLine={false}
                         label={renderCustomizedLabel}
-                        outerRadius={80}
+                        outerRadius={80}s
                     >
                         {Piedata.map((entry, index) => (
                             <Cell name={entry.language} key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
